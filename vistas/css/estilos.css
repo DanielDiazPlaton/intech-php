@@ -1,0 +1,36 @@
+/* ESTILOS PARA EL VIDEO DE FONDO */
+
+.he {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: rgba(0, 0, 0, 0.788);
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+}
+
+.absolute {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* EFECTO PARALLAX */
+
+.parallax {
+    height: 60vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/1.png");
+    color: aliceblue;
+}
